@@ -177,49 +177,68 @@
 }
 
 .map .map-avatar1 {
-
+    background: url("../img/1.png") no-repeat center center;
     top: 309px;
     left: 121px;
 }
 
 .map .map-avatar2 {
+    background: url("../img/2.png") no-repeat center center;
+
     top: 174px;
     left: 170px;
 }
 
 .map .map-avatar3 {
+    background: url("../img/3.png") no-repeat center center;
+
     top: 370px;
     left: 246px;
 }
 
 .map .map-avatar4 {
+    background: url("../img/4.png") no-repeat center center;
+
     top: 249px;
     left: 291px;
 }
 
 .map .map-avatar5 {
-    top: 342px;
-    left: 396px;
+    background: url("../img/5.png") no-repeat center center;
+
+    top: 333px;
+    left: 412px;
 }
 
 .map .map-avatar6 {
+    background: url("../img/6.png") no-repeat center center;
+
     top: 476px;
-    left: 457px;
+    left: 396px;
 }
 
 .map .map-avatar7 {
-    top: 250px;
-    left: 517px;
+    background: url("../img/7.png") no-repeat center center;
+    top: 202px;
+    left: 551px;
 }
 
 .map .map-avatar8 {
-    top: 385px;
-    left: 579px;
+    background: url("../img/8.png") no-repeat center center;
+    top: 483px;
+    left: 546px;
 }
 
 .map .map-avatar9 {
+    background: url("../img/9.png") no-repeat center center;
+
     top: 115px;
     left: 667px;
+}
+
+.map .map-avatar10 {
+    top: 348px;
+    left: 563px;
 }
 
 .understand-me {
@@ -302,6 +321,7 @@
     position: absolute;
     top: 206px;
     left: 918px;
+    /*right:0;*/
     background: #ffffff;
     opacity: 0.5;
 }
@@ -730,10 +750,42 @@ div.menu-box.replace-old{
 
 /*work-appreciated*/
 .work-list{
-    padding: 20px 20px 80px 0;
+    padding: 0 20px 80px 0;
+}
+.work-list ul{
+    margin-top: 20px;
 }
 .work-list ul .wl-single{
-    margin:0;
+    margin-left: 20px;
+}
+.work-list ul .wl-single a,.work-list ul .wl-single span{
+    display: block;
+}
+.work-list ul .wl-single a{
+    margin-bottom: 12px;
+}
+.work-list ul .wl-single span,.work-list ul .wl-single label,.work-list ul .wl-single .wl-single-heart {
+    margin: 0 0 8px 20px;
+}
+.work-list ul .wl-single span{
+    font-size: 18px;
+    color: #1a1a1a;
+}
+.work-list ul .wl-single label{
+    display: block;
+    color: #666666;
+}
+.work-list ul .wl-single .wl-single-heart em{
+    width: 16px;
+    height: 14px;
+    margin-right: 10px;
+    background: url("../img/as-article-content-img.png") center center no-repeat;
+    vertical-align: middle;
+}
+.work-list ul .wl-single .wl-single-heart span{
+    color: #c85656;
+    font-size: 14px;
+    vertical-align: middle;
 }
 
 
@@ -1042,9 +1094,6 @@ div.menu-box.replace-old{
         -o-transform: scale(1.2, 1.2);
     }
 }
-
-
-
 
 
 
